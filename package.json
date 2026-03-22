@@ -14,7 +14,6 @@
         "sodiumlabs",
         "wrapper"
     ],
-    "type": "module",
     "homepage": "https://github.com/sodium-labs/plume-api.js#readme",
     "bugs": {
         "url": "https://github.com/sodium-labs/plume-api.js/issues"
@@ -28,6 +27,7 @@
     "files": [
         "dist"
     ],
+    "type": "module",
     "main": "./dist/index.js",
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.ts",

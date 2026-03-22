@@ -2,11 +2,10 @@
     "$schema": "./node_modules/oxfmt/configuration_schema.json",
     "printWidth": 120,
     "arrowParens": "avoid",
-    "endOfLine": "lf",
-    "semi": true,
-    "trailingComma": "all",
     "tabWidth": 4,
     "useTabs": false,
-    "proseWrap": "never",
-    "ignorePatterns": ["node_modules", "dist", "dist-docs", "package-lock.json"]
+    "sortImports": {
+        "newlinesBetween": false
+    },
+    "ignorePatterns": ["node_modules", ".next", "dist", "package-lock.json", "wasm/"]
 }
