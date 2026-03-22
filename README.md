@@ -25,7 +25,7 @@ npm install @voctal/plume-api
 - [Plume API](https://plume.voctal.dev)
 - [Plume API documentation](https://plume.voctal.dev/docs)
 - [Module documentation](https://docs.voctal.dev/docs/packages/plume-api/stable)
-- [Discord server](https://discord.gg/8PDXWSHH7k)
+- [Discord server](https://voctal.dev/discord)
 - [GitHub](https://github.com/voctal/plume-api.js)
 - [npm](https://npmjs.com/package/@voctal/plume-api)
 - [Voctal](https://voctal.dev)
