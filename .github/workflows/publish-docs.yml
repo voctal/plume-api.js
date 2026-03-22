@@ -27,7 +27,7 @@ jobs:
             - name: Read package info
               id: pkg
               run: |
-                  NAME=$(jq -r '.name' package.json | sed 's/^@sodiumlabs\///')
+                  NAME=$(jq -r '.name' package.json | sed 's/^@voctal\///')
                   VERSION=$(jq -r '.version' package.json)
                   echo "name=$NAME" >> $GITHUB_OUTPUT
                   echo "version=$VERSION" >> $GITHUB_OUTPUT
@@ -35,7 +35,7 @@ jobs:
             - name: Checkout artifacts repo
               uses: actions/checkout@v4
               with:
-                  repository: sodium-labs/artifacts
+                  repository: voctal/artifacts
                   ref: main
                   token: ${{ secrets.ARTIFACTS_TOKEN }}
                   path: artifacts

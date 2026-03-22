@@ -254,7 +254,7 @@
          * SUPPORTED TOKENS: none
          * DEFAULT VALUE: ""
          */
-        "projectFolderUrl": "http://github.com/sodium-labs/plume-api.js"
+        "projectFolderUrl": "http://github.com/voctal/plume-api.js"
     },
 
     /**

@@ -3,32 +3,32 @@
     <h1>Plume API.js</h1>
     <br />
     <p>
-        <a href="https://discord.gg/8PDXWSHH7k"><img src="https://img.shields.io/discord/1336303640725553213?color=5865F2&logo=discord&logoColor=white" alt="Discord server" /></a>
-        <a href="https://www.npmjs.com/package/@sodiumlabs/plume-api"><img src="https://img.shields.io/npm/v/@sodiumlabs/plume-api.svg?maxAge=3600" alt="npm version" /></a>
-        <a href="https://www.npmjs.com/package/@sodiumlabs/plume-api"><img src="https://img.shields.io/npm/dt/@sodiumlabs/plume-api.svg?maxAge=3600" alt="npm downloads" /></a>
-        <a href="https://github.com/sodium-labs/plume-api.js/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/sodium-labs/plume-api.js?logo=github&logoColor=ffffff" /></a>
+        <a href="https://voctal.dev/discord"><img src="https://img.shields.io/discord/1336303640725553213?color=5865F2&logo=discord&logoColor=white" alt="Discord server" /></a>
+        <a href="https://www.npmjs.com/package/@voctal/plume-api"><img src="https://img.shields.io/npm/v/@voctal/plume-api.svg?maxAge=3600" alt="npm version" /></a>
+        <a href="https://www.npmjs.com/package/@voctal/plume-api"><img src="https://img.shields.io/npm/dt/@voctal/plume-api.svg?maxAge=3600" alt="npm downloads" /></a>
+        <a href="https://github.com/voctal/plume-api.js/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/voctal/plume-api.js?logo=github&logoColor=ffffff" /></a>
     </p>
 </div>
 
 # About
 
-`@sodiumlabs/plume-api` is a module that allows you to easily use Plume API. See the [module docs](https://docs.sodiumlabs.xyz/docs/packages/plume-api/stable), and the [API docs](https://plume.sodiumlabs.xyz/docs) to understand how to use it.
+`@voctal/plume-api` is a module that allows you to easily use Plume API. See the [module docs](https://docs.voctal.dev/docs/packages/plume-api/stable), and the [API docs](https://plume.voctal.dev/docs) to understand how to use it.
 
 # Installation
 
 ```sh
-npm install @sodiumlabs/plume-api
+npm install @voctal/plume-api
 ```
 
 # Links
 
-- [Plume API](https://plume.sodiumlabs.xyz)
-- [Plume API documentation](https://plume.sodiumlabs.xyz/docs)
-- [Module documentation](https://docs.sodiumlabs.xyz/docs/packages/plume-api/stable)
+- [Plume API](https://plume.voctal.dev)
+- [Plume API documentation](https://plume.voctal.dev/docs)
+- [Module documentation](https://docs.voctal.dev/docs/packages/plume-api/stable)
 - [Discord server](https://discord.gg/8PDXWSHH7k)
-- [GitHub](https://github.com/sodium-labs/plume-api.js)
-- [npm](https://npmjs.com/package/@sodiumlabs/plume-api)
-- [Sodium Labs](https://sodiumlabs.xyz)
+- [GitHub](https://github.com/voctal/plume-api.js)
+- [npm](https://npmjs.com/package/@voctal/plume-api)
+- [Voctal](https://voctal.dev)
 
 # Examples
 
@@ -36,7 +36,7 @@ If you are developing a Discord bot using `discord.js`, here is how to use Plume
 
 ```js
 const { Client } = require("discord.js");
-const { PlumeAPI } = require("@sodiumlabs/plume-api");
+const { PlumeAPI } = require("@voctal/plume-api");
 
 // Your discord.js client
 const client = new Client({
@@ -88,15 +88,15 @@ async execute(interaction) {
 Plume API provides two main resources for documentation:
 
 - **API Reference:**  
-   [Plume API Documentation](https://plume.sodiumlabs.xyz/docs)  
+   [Plume API Documentation](https://plume.voctal.dev/docs)  
    This documentation covers all available endpoints, types, and detailed comments for the API.
 
 - **Module Reference:**  
-   [Module Documentation](https://docs.sodiumlabs.xyz/docs/packages/plume-api/stable)  
-   This documentation explains how to use the `@sodiumlabs/plume-api` npm package, with all available methods and types.
+   [Module Documentation](https://docs.voctal.dev/docs/packages/plume-api/stable)  
+   This documentation explains how to use the `@voctal/plume-api` npm package, with all available methods and types.
 
-For most use cases, you'll want to refer to the [`PlumeAPI` class page](https://docs.sodiumlabs.xyz/docs/packages/plume-api/stable/PlumeAPI:Class), which lists all available methods for interacting with the API through this module.
+For most use cases, you'll want to refer to the [`PlumeAPI` class page](https://docs.voctal.dev/docs/packages/plume-api/stable/PlumeAPI:Class), which lists all available methods for interacting with the API through this module.
 
 # Help
 
-If you don't understand something in the documentation, are experiencing problems, or you just need a gentle nudge in the right direction, please don't hesitate to join our official [Discord Server](https://discord.gg/8PDXWSHH7k).
+If you don't understand something in the documentation, are experiencing problems, or you just need a gentle nudge in the right direction, please don't hesitate to join our official [Discord Server](https://voctal.dev/discord).

@@ -1,6 +1,6 @@
 {
     "$schema": "https://json.schemastore.org/package.json",
-    "name": "@sodiumlabs/plume-api",
+    "name": "@voctal/plume-api",
     "version": "1.9.0",
     "description": "The official Plume API wrapper",
     "keywords": [
@@ -10,19 +10,18 @@
         "plume",
         "plume-api",
         "plumeapi",
-        "sodium",
-        "sodiumlabs",
+        "voctal",
         "wrapper"
     ],
-    "homepage": "https://github.com/sodium-labs/plume-api.js#readme",
+    "homepage": "https://github.com/voctal/plume-api.js",
     "bugs": {
-        "url": "https://github.com/sodium-labs/plume-api.js/issues"
+        "url": "https://github.com/voctal/plume-api.js/issues"
     },
     "license": "MIT",
-    "author": "sodiumlabs",
+    "author": "voctal",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/sodium-labs/plume-api.js.git"
+        "url": "git+https://github.com/voctal/plume-api.js.git"
     },
     "files": [
         "dist"

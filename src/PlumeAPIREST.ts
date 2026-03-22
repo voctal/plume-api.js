@@ -5,7 +5,7 @@ export interface PlumeAPIRESTOptions {
 }
 
 export default class PlumeAPIREST {
-    public static readonly baseURL: string = "https://plume.sodiumlabs.xyz/api";
+    public static readonly baseURL: string = "https://plume.voctal.dev/api";
     public static readonly defaultUserAgent: string = "plume-api.js";
 
     public constructor(public readonly options: PlumeAPIRESTOptions = {}) {}
