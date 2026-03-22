@@ -1,4 +1,4 @@
-import PlumeAPIREST, { PlumeAPIRESTOptions } from "./PlumeAPIREST";
+import { PlumeAPIREST, PlumeAPIRESTOptions } from "./rest";
 import {
     AdviceData,
     AgifyData,

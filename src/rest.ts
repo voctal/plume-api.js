@@ -1,12 +1,13 @@
-import PlumeAPIError from "./PlumeAPIError";
+import { version } from "./constants";
+import { PlumeAPIError } from "./errors";
 
 export interface PlumeAPIRESTOptions {
     userAgent?: string;
 }
 
-export default class PlumeAPIREST {
+export class PlumeAPIREST {
     public static readonly baseURL: string = "https://plume.voctal.dev/api";
-    public static readonly defaultUserAgent: string = "plume-api.js";
+    public static readonly defaultUserAgent: string = `plume-api.js/${version}`;
 
     public constructor(public readonly options: PlumeAPIRESTOptions = {}) {}
 
