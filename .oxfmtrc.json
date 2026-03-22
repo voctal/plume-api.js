@@ -7,5 +7,5 @@
     "sortImports": {
         "newlinesBetween": false
     },
-    "ignorePatterns": ["node_modules", ".next", "dist", "package-lock.json", "wasm/"]
+    "ignorePatterns": ["node_modules", "dist", "dist-docs", "package-lock.json"]
 }
