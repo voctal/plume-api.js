@@ -1,7 +1,5 @@
 <div align="center">
-<br />
     <h1>Plume API.js</h1>
-    <br />
     <p>
         <a href="https://voctal.dev/discord"><img src="https://img.shields.io/discord/1336303640725553213?color=5865F2&logo=discord&logoColor=white" alt="Discord server" /></a>
         <a href="https://www.npmjs.com/package/@voctal/plume-api"><img src="https://img.shields.io/npm/v/@voctal/plume-api.svg?maxAge=3600" alt="npm version" /></a>
@@ -10,11 +8,11 @@
     </p>
 </div>
 
-# About
+## About
 
 `@voctal/plume-api` is a module that allows you to easily use Plume API. See the [module docs](https://docs.voctal.dev/docs/packages/plume-api/stable), and the [API docs](https://plume.voctal.dev/docs) to understand how to use it.
 
-# Installation
+## Installation
 
 Node.js 22 or newer is required.
 
@@ -22,17 +20,7 @@ Node.js 22 or newer is required.
 npm install @voctal/plume-api
 ```
 
-# Links
-
-- [Plume API](https://plume.voctal.dev)
-- [Plume API documentation](https://plume.voctal.dev/docs)
-- [Module documentation](https://docs.voctal.dev/docs/packages/plume-api/stable)
-- [Discord server](https://voctal.dev/discord)
-- [GitHub](https://github.com/voctal/plume-api.js)
-- [npm](https://npmjs.com/package/@voctal/plume-api)
-- [Voctal](https://voctal.dev)
-
-# Examples
+## Example usage
 
 If you are developing a Discord bot using `discord.js`, here is how to use Plume API:
 
@@ -85,7 +73,7 @@ async execute(interaction) {
 }
 ```
 
-# Documentation
+## Documentation
 
 Plume API provides two main resources for documentation:
 
@@ -99,6 +87,16 @@ Plume API provides two main resources for documentation:
 
 For most use cases, you'll want to refer to the [`PlumeAPI` class page](https://docs.voctal.dev/docs/packages/plume-api/stable/PlumeAPI:Class), which lists all available methods for interacting with the API through this module.
 
-# Help
+## Links
 
-If you don't understand something in the documentation, are experiencing problems, or you just need a gentle nudge in the right direction, please don't hesitate to join our official [Discord Server](https://voctal.dev/discord).
+- [Plume API](https://plume.voctal.dev)
+- [Plume API documentation](https://plume.voctal.dev/docs)
+- [Module documentation](https://docs.voctal.dev/docs/packages/plume-api/stable)
+- [Discord server](https://voctal.dev/discord)
+- [GitHub](https://github.com/voctal/plume-api.js)
+- [npm](https://npmjs.com/package/@voctal/plume-api)
+- [Voctal](https://voctal.dev)
+
+## Help
+
+Need help with the module? Ask on our [support server!](https://voctal.dev/discord)
